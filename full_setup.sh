@@ -41,7 +41,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ZSH_CUSTOM="/root/.oh-my-zsh/custom"
 cd "$ZSH_CUSTOM/plugins"
 git clone https://github.com/zsh-users/zsh-autosuggestions.git
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git
 git clone https://github.com/marlonrichert/zsh-autocomplete.git
 
@@ -69,7 +68,6 @@ plugins=(
   git-extras
   screen
   zsh-autosuggestions
-  zsh-syntax-highlighting
   fast-syntax-highlighting
   zsh-autocomplete
   history
