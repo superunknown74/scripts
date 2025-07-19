@@ -17,7 +17,7 @@ apt install -y \
     sudo htop git unzip zip screen tmux ufw bash-completion nano vim \
     net-tools iputils-ping dnsutils traceroute \
     build-essential python3 python3-pip python3-venv \
-    zsh emacs-nox samba
+    zsh emacs-nox samba cifs-utils
 
 # Set timezone and locale
 timedatectl set-timezone Europe/Berlin
